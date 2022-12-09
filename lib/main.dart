@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pokemon_app/app/view/home/bloc/home_bloc.dart';
 import 'package:pokemon_app/app/view/home/screen/home_screen.dart';
+import 'package:pokemon_app/app/view/splash/splash_screen.dart';
 
 import 'app/blocs/simple_bloc_observer.dart';
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const HomeScreen(),
+        home: const SplashScreen(),
       ),
     );
   }

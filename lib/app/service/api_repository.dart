@@ -5,6 +5,6 @@ class ApiRepository {
   final ApiClient apiClient = ApiClient();
 
   Future<List<PokemonModel>> getPokemonList() async {
-    return await apiClient.getPokemonList();
+    return await apiClient.getPokemon();
   }
 }
